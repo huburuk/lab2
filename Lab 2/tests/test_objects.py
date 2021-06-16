@@ -56,7 +56,7 @@ exp_hello = 'Hello, world!'
 """
 global variable
 """
-name = 'Misha'
+name = 'Anton'
 
 """
 function using globals variable
