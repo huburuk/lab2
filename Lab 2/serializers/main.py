@@ -20,7 +20,7 @@ def get_ext(path):
 
 def main():
     config_reader = SerializerFactory.get_instance(SerializerType.Json)
-    config = config_reader.load('/home/mikhail/Desktop/ISP/LR2/Task/serializers/config.json')
+    config = config_reader.load('/home/Anton/Desktop/ISP/LR2/Task/serializers/config.json')
 
     source_serializer = choose(get_ext(config.path))
     obj = source_serializer.load(config.path)
