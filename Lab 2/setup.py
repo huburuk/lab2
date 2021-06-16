@@ -5,8 +5,8 @@ setup(
     version='1.0',
     description='LR2',
     packages=['serializers'],
-    author='Mikhail Krishtapovich',
-    author_email='mkrishtapovich@gmail.com',
+    author='Anton Moskalev',
+    author_email='moskanton@mail.ru',
     entry_points={
         'console_scripts': [
             'run = serializers.main:main'
