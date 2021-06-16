@@ -65,7 +65,7 @@ def say_hello():
     return 'Hello, ' + name
 
 
-exp_say_hello = 'Hello, Misha'
+exp_say_hello = 'Hello, Anton'
 
 """
 function with parameters
